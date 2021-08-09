@@ -1,0 +1,1 @@
+const d=document.querySelector(".nokia3310"),e=document.querySelector("button"),t=new Audio("music.mp3");e.addEventListener("click",(()=>{document.body.classList.add("dark"),d.classList.add("on"),t.play(),e.disabled=!0}));
